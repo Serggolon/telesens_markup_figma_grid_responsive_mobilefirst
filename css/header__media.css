@@ -1,0 +1,11 @@
+@media (min-width: 576px) {
+  .header__menu div{
+    padding: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__menu div{
+    padding: 15px;
+  }
+}

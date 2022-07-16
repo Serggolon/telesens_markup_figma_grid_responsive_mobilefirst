@@ -1,0 +1,46 @@
+.ourSuccess {
+	background-image: url("../assets/background__image/main__ourSuccess.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+  padding: 5px 0px;
+}
+
+.ourSuccess .container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, max-content);
+  row-gap: 10px;
+	justify-items: center;
+  align-items: center;
+}
+
+.successItem {
+	display: grid;
+	grid-template-columns: max-content;
+  grid-auto-rows: min-content;
+	justify-items: center;
+}
+
+.successItem h1 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 127.52%;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.successItem p {
+	font-family: Fira Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 128%;
+	text-align: center;
+	color: #FFFFFF;
+}

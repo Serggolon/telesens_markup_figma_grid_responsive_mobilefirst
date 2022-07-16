@@ -1,0 +1,25 @@
+.main{
+    width: 100%;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: min-content;
+    row-gap: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    background: #E5E5E5;
+}
+
+.main__navigation {
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px;
+    grid-auto-rows: min-content;
+    justify-self: center;
+    column-gap: 25px;
+  }
+  
+  .main__navigation button {
+    width: 50px;
+    height: 50px;
+    background: #03A65A;
+  }

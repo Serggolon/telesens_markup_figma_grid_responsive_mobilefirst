@@ -1,0 +1,176 @@
+.ourTechnologies {
+  display: grid;
+  grid-template-columns: 1fr;
+	grid-template-rows: min-content;
+  justify-items: center;
+  width: 100%;
+}
+
+.ourTechnologies .container {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 384px;
+  grid-auto-rows: min-content;
+  row-gap: 20px;
+}
+
+.ourTechnologies__header {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.ourTechnologies__header p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #222222;
+  opacity: 0.7;
+  display: none;
+}
+
+.ourTechnologies__header h1 {
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: -1px;
+  color: #222222;
+}
+
+.ourTechnologies__androidList {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content;
+  justify-items: center;
+  align-items: start;
+  row-gap: 24px;
+}
+
+.ourTechnologies__androidList h2 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  color: #222222;
+  padding-bottom: 0;
+}
+
+.ourTechnologies__androidList span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #03A65A;
+  margin-right: 8px;
+}
+
+.ourTechnologies__androidList ul {
+  display: grid;
+  grid-template-columns: 269px;
+  grid-auto-rows: min-content;
+  justify-items: center;
+  row-gap: 24px;
+  column-gap: 0;
+}
+
+.ourTechnologies__androidList li {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #222222;
+  opacity: 0.7;
+}
+
+.ourTechnologies__buisnessProceses {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: min-content;
+}
+
+.ourTechnologies__buisnessProceses__header {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 16px;
+  grid-auto-rows: min-content;
+  justify-items: center;
+}
+
+.ourTechnologies__buisnessProceses__header h2 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+}
+
+.ourTechnologies__buisnessProceses__header p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #222222;
+  opacity: 0.7;
+}
+
+.ourTechnologies__buisnessProceses__processesList {
+  display: grid;
+  grid-template-columns: repeat(2, 192px);
+  grid-template-rows: repeat(4, 236px);
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 0;
+}
+
+.ourTechnologies__buisnessProceses__processesList>div {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-columns: min-content;
+  row-gap: 12px;
+  justify-items: center;
+}
+
+.ourTechnologies__buisnessProceses__processesList__javaLogo {
+  margin: 21px 55px;
+}
+
+.ourTechnologies__buisnessProceses__processesList__kotlinFirstLogo {
+  margin: 0px;
+}
+
+.ourTechnologies__buisnessProceses__processesList__kotlinSecondLogo, .ourTechnologies__buisnessProceses__processesList__kotlinThirdLogo {
+  margin: 30px;
+}
+
+.ourTechnologies__buisnessProceses__processesList__androidLogo {
+  margin: 23px 34px;
+}
+
+.ourTechnologies__buisnessProceses__processesList__crashlyticksLogo, .ourTechnologies__buisnessProceses__processesList__webstormLogo {
+  margin: 23px;
+}
+
+.ourTechnologies__buisnessProceses__processesList__stackoverflowLogo {
+  margin: 15px;
+}
+
+.ourTechnologies__buisnessProceses__processesList__logoContainer{
+  background: #ffffff;
+}
+
+.ourTechnologies__buisnessProceses__processesList p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #222222;
+  background: #E5E5E5;
+  width: 100%;
+}

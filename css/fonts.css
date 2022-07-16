@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('../assets/fonts/open__sans__condensed/open__sans__condensed.eot');
+    src: url('../assets/fonts/open__sans__condensed/open__sans__condensed.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/open__sans__condensed/open__sans__condensed.woff2') format('woff2'),
+        url('../assets/fonts/open__sans__condensed/open__sans__condensed.woff') format('woff'),
+        url('../assets/fonts/open__sans__condensed/open__sans__condensed.svg#OpenSansCondensed-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/open__sans/open__sans.eot');
+    src: url('../assets/fonts/open__sans/open__sans.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/open__sans/open__sans.woff2') format('woff2'),
+        url('../assets/fonts/open__sans/open__sans.woff') format('woff'),
+        url('../assets/fonts/open__sans/open__sans.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Fira Sans';
+    src: url('../assets/fonts/fira__sans/fira__sans.eot');
+    src: url('../assets/fonts/fira__sans/fira__sans.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/fira__sans/fira__sans.woff2') format('woff2'),
+        url('../assets/fonts/fira__sans/fira__sans.woff') format('woff'),
+        url('../assets/fonts/fira__sans/fira__sans.svg#FiraSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

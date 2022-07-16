@@ -1,0 +1,130 @@
+.reviews {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content;
+  justify-items: center;
+  width: 100%;
+}
+
+.reviews .container {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  grid-auto-rows: min-content;
+  row-gap: 20px;
+  justify-items: center;
+}
+
+.reviews__header {
+  justify-self: center;
+}
+
+.reviews__header p {
+  display: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #222222;
+  opacity: 0.7;
+}
+
+.reviews__header h1 {
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  color: #222222;
+}
+
+.reviews__content {
+  /*reviews content block*/
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.reviews__content div {
+  background: #ffffff;
+}
+
+.reviews__content div:nth-child(1) {   /*1st block with client icons*/
+  position: relative;
+  display: none;
+}
+
+.reviews__content img:nth-child(1) {
+  position: absolute;
+  top: 30px;
+  left: 206px;
+}
+
+.reviews__content img:nth-child(2) {
+  position: absolute;
+  top: 143px;
+  left: 62px;
+}
+
+.reviews__content img:nth-child(3) {
+  position: absolute;
+  top: 309px;
+  left: 62px;
+}
+
+.reviews__content img:nth-child(4) {
+  position: absolute;
+  top: 160px;
+  left: 192px;
+  border: 10px solid #03A65A;
+  border-radius: 50%;
+  box-sizing: border-box;
+  padding: 4px;
+}
+
+.reviews__content img:nth-child(5) {
+  position: absolute;
+  top: 421px;
+  left: 206px;
+}
+
+.reviews__content>div:nth-child(2) {  /*2nd block with review text*/
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(97px, auto) 55px;
+  row-gap: 10px;
+  align-content: center;
+  justify-items: center;
+}
+
+.reviews__content h2 {
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: -1px;
+  color: #222222;
+  padding-left: 1px;
+  width: 320px;
+}
+
+.reviews__content h3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: #222222;
+}
+
+.reviews__content p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #222222;
+  opacity: 0.7;
+}

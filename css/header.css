@@ -1,0 +1,41 @@
+.header{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px;
+  grid-auto-rows: max-content;
+  background: #ffffff;
+  border-bottom: 1px solid #A4A4A4;
+}
+
+.header__logo{
+  justify-self: start;
+  display: grid;
+  align-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header a{
+  display: block;
+}
+
+.header__logo img{
+  width: 100%;
+}
+
+.header__menu{
+  justify-self: end;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.header__menu div{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  padding-right: 5px;
+  padding-top:15px;
+  padding-bottom: 15px;
+}
